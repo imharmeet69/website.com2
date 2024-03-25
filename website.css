@@ -1,0 +1,153 @@
+.body{
+  background-image: url(moon-lake-mountains-cold-night-nature-scenery-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  
+}
+.div{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.photo-div-border{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+.border-of-dp{
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+ 
+}
+
+.dp{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  object-fit: fill;
+}
+
+.id{
+  font-family: Roboto;
+  text-decoration: underline;
+  color: rgb(252, 252, 252);
+  margin-top: 8px;
+  
+  
+}
+
+.border-of-horizontal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+
+.horizontal-line{
+  border-style: solid;
+  border-width: 1px;
+  width: 1000px;
+  color: gray;
+  
+}
+
+.visit{
+  margin-top: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+  color: rgb(252, 252, 252);
+}
+
+.box{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  width: 1000px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  cursor: pointer;
+  color: gray;
+}
+
+.box:hover{
+  background-color: rgb(34, 161, 211);
+  transition: 1ms;
+}
+
+.box:hover{
+background-color: rgb(34, 161, 211);
+}
+.box-2{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  width: 1000px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  cursor: pointer;
+   color: gray;
+}
+
+.box-2:hover{
+  background-color: rgb(34, 161, 211);
+  transition: 1ms;
+}
+
+.box-2:active{
+  background-color: rgb(34, 161, 211);
+}
+
+.img-one{
+  width: 40px;
+  margin-left: 8px;
+}
+
+.Social{
+  font-family: Roboto;
+  color: rgb(252, 252, 252);
+}
+
+.arrow{
+  margin-right: 8px;
+  font-family: Roboto; 
+  font-weight: bold;
+  color: rgb(255, 252, 252);
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 50px;
+  width: 160px;
+  height: 26px;
+  margin-left: 20px;
+}
+
+.follow{
+  margin-top: 10px;
+  margin-left: 14px;
+  font-family: Roboto;
+  font-size: 14px;
+  color: rgb(252, 252, 252);
+}
